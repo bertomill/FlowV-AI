@@ -107,6 +107,12 @@ export default function Home() {
             <span className="relative z-20">Features</span>
           </a>
           <a
+            href="/services"
+            className="relative px-4 py-2 text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
+          >
+            <span className="relative z-20">Services</span>
+          </a>
+          <a
             className="relative px-4 py-2 text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
             onClick={(e) => {
               e.preventDefault()
@@ -232,6 +238,12 @@ export default function Home() {
               >
                 Features
               </button>
+              <a
+                href="/services"
+                className="text-left px-4 py-3 text-lg font-medium text-muted-foreground hover:text-foreground transition-colors rounded-lg hover:bg-background/50 cursor-pointer"
+              >
+                Services
+              </a>
               <button
                 onClick={() => handleMobileNavClick("pricing")}
                 className="text-left px-4 py-3 text-lg font-medium text-muted-foreground hover:text-foreground transition-colors rounded-lg hover:bg-background/50"
