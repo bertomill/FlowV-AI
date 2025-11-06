@@ -141,10 +141,10 @@ export default function Hero() {
           >
             Transform your business with
             <img
-              src="/rose.webp"
+              src="/flowV-logo.png"
               alt="Flow V Logo"
               draggable={false}
-              className="mx-4 mb-2 inline-block h-12 w-12 md:h-16 md:w-16"
+              className="mx-4 mb-2 inline-block h-12 w-12 md:h-16 md:w-16 rounded-lg"
             />
             intelligent automation
           </motion.h1>
