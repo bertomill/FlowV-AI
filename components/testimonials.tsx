@@ -2,58 +2,58 @@ import { Marquee } from "@/components/magicui/marquee"
 
 const testimonials = [
   {
-    name: "Arjun Mehta",
-    username: "@arjdev",
-    body: "v0 has completely changed the way I build UIs. Generate, copy-paste, done. No more design stress.",
-    img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
-  },
-  {
-    name: "Sara Lin",
-    username: "@sara.codes",
-    body: "Honestly shocked at how smooth the v0 generated components are out of the box. Just works perfectly.",
+    name: "Sarah Mitchell",
+    username: "CEO, TechStart Inc",
+    body: "Berto and Flow V automated our entire customer onboarding process. We went from 3 hours per client to just 10 minutes. Game-changing ROI.",
     img: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&h=150&fit=crop&crop=face",
   },
   {
-    name: "Devon Carter",
-    username: "@devninja",
-    body: "Our team launched a client site in 2 days using v0 components. Saved so much development time.",
+    name: "Marcus Johnson",
+    username: "Founder, GrowthLabs",
+    body: "Working with Berto was seamless. He understood our vision immediately and delivered an AI chatbot that handles 80% of our support tickets. Brilliant work.",
+    img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+  },
+  {
+    name: "Emily Chen",
+    username: "Marketing Director",
+    body: "Flow V built us a content generation system that creates social media posts, blogs, and email campaigns. Our team is 5x more productive now.",
     img: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
   },
   {
-    name: "Priya Shah",
-    username: "@priyacodes",
-    body: "Generated a few components in v0 and everything blended perfectly with our codebase. Massive W.",
-    img: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face",
-  },
-  {
-    name: "Leo Martin",
-    username: "@leobuilds",
-    body: "Found a beautiful hero section in v0, tweaked the prompt, and shipped in 15 minutes. Game changer.",
+    name: "David Rodriguez",
+    username: "Owner, Local Retail Chain",
+    body: "Berto's AI automation saved us 20+ hours weekly on inventory management. The system pays for itself every month. Best investment we've made.",
     img: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
   },
   {
-    name: "Chloe Winters",
-    username: "@chloewinters",
-    body: "v0 helped us prototype multiple landing pages without writing CSS once. Pure magic.",
+    name: "Amanda Foster",
+    username: "Operations Manager",
+    body: "Flow V transformed our workflow. Data entry that took days now happens automatically. Berto's expertise in AI automation is unmatched.",
     img: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&h=150&fit=crop&crop=face",
   },
   {
-    name: "Ayaan Malik",
-    username: "@ayaan_dev",
-    body: "As a solo founder, v0 lets me move fast without sacrificing design quality. Essential tool.",
+    name: "James Park",
+    username: "E-commerce Entrepreneur",
+    body: "The custom AI system Flow V built handles order processing, customer queries, and analytics. Revenue up 40% since implementation. Incredible results.",
     img: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
   },
   {
-    name: "Monica Reeves",
-    username: "@monicareeves",
-    body: "Can't believe how polished the v0 generated components look. Clients are impressed every time.",
+    name: "Lisa Thompson",
+    username: "Agency Owner",
+    body: "Berto didn't just automate our processes—he reimagined them. The AI workflows he created are elegant, efficient, and exactly what we needed.",
     img: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&crop=face",
   },
   {
-    name: "James Roy",
-    username: "@jamesrdev",
-    body: "v0 is a lifesaver when deadlines are tight. Generate a component, tweak, and deploy instantly.",
+    name: "Robert Kim",
+    username: "CTO, FinanceHub",
+    body: "Flow V's AI automation integrates perfectly with our existing systems. Berto's technical knowledge and communication made the project smooth from start to finish.",
     img: "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=150&h=150&fit=crop&crop=face",
+  },
+  {
+    name: "Nicole Anderson",
+    username: "Small Business Owner",
+    body: "I was skeptical about AI, but Berto made it simple and accessible. Now our scheduling, invoicing, and follow-ups run on autopilot. Life-changing.",
+    img: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face",
   },
 ]
 
@@ -105,11 +105,11 @@ export function TestimonialsSection() {
             </button>
           </div>
           <h2 className="from-foreground/60 via-foreground to-foreground/60 dark:from-muted-foreground/55 dark:via-foreground dark:to-muted-foreground/55 mt-5 bg-gradient-to-r bg-clip-text text-center text-4xl font-semibold tracking-tighter text-transparent md:text-[54px] md:leading-[60px] __className_bb4e88 relative z-10">
-            What our users say
+            What our clients say
           </h2>
 
           <p className="mt-5 relative z-10 text-center text-lg text-zinc-500">
-            From intuitive design to powerful features, our app has become an essential tool for users around the world.
+            Real results from businesses that transformed their operations with Flow V's AI automation solutions.
           </p>
         </div>
 
