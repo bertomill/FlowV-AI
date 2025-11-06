@@ -139,6 +139,11 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.75, delay: 0.2 }}
           >
+            <span className="block mb-4">
+              <span className="bg-gradient-to-r from-rose-400 via-rose-500 to-orange-500 bg-clip-text text-transparent">
+                Flow V
+              </span>
+            </span>
             Transform your business with
             <img
               src="/flowV-logo.png"
