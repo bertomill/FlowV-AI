@@ -51,15 +51,15 @@ export default function Hero() {
 
   const cards = [
     {
-      title: "V0 Compatible",
-      description: "Edit and customize visually, instantly.",
+      title: "AI-Powered Automation",
+      description: "Intelligent workflows that adapt and scale.",
       icon: <CloudLightning className="h-full w-full" />,
       variant: "rose",
       showGridLines: true,
     },
     {
-      title: "Animated Out of Box",
-      description: "No setup and  smooth UI interactions.",
+      title: "Custom Solutions",
+      description: "Tailored AI systems for your business needs.",
       icon: <Sparkles className="h-full w-full" />,
       variant: "rose",
       showGridLines: true,
@@ -70,18 +70,18 @@ export default function Hero() {
     {
       color: "rose",
       icon: "Blocks",
-      label: "Command",
+      label: "Automations",
       canvasProps: { gap: 3, speed: 80, colors: "#fff, #fda4af, #e11d48" },
-      number: 100,
-      desc: "Components available",
+      number: 24,
+      desc: "Hours saved daily",
     },
     {
       color: "rose",
       icon: "f",
-      label: "Dropper",
+      label: "AI Systems",
       canvasProps: { gap: 3, speed: 80, colors: "#fff, #fda4af, #e11d48" },
-      number: 15,
-      desc: "Categories available",
+      number: 95,
+      desc: "Client satisfaction",
     },
   ]
 
@@ -139,14 +139,14 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.75, delay: 0.2 }}
           >
-            Reach developers & creators
+            Transform your business with
             <img
               src="/rose.webp"
-              alt="Logo"
+              alt="Flow V Logo"
               draggable={false}
               className="mx-4 mb-2 inline-block h-12 w-12 md:h-16 md:w-16"
             />
-            effortlessly
+            intelligent automation
           </motion.h1>
         </div>
         <motion.div
@@ -156,8 +156,8 @@ export default function Hero() {
           transition={{ duration: 0.75, delay: 0.3 }}
         >
           <p className="text-muted-foreground text-xl">
-            Beautiful, accessible components built with Tailwind CSS and Framer Motion.
-            Copy, paste, and customize to build your next project faster.
+            Streamline operations, boost productivity, and scale effortlessly with custom AI solutions
+            tailored to your unique business needs.
           </p>
         </motion.div>
         <motion.div
@@ -166,14 +166,14 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.75, delay: 0.4 }}
         >
-          <Link prefetch={false} href="/docs/introduction">
+          <Link prefetch={false} href="/services">
             <Button className="bg-gradient-to-b from-rose-500 to-rose-700 text-sm text-white shadow-[0px_2px_0px_0px_rgba(255,255,255,0.3)_inset]">
-              Get started
+              Explore Services
             </Button>
           </Link>
-          <Link prefetch={false} href="/about">
+          <Link prefetch={false} href="/signup">
             <Button variant={"secondary"}>
-              About <MoveRight className="ml-2 h-4 w-4" />
+              Get Started <MoveRight className="ml-2 h-4 w-4" />
             </Button>
           </Link>
         </motion.div>
@@ -192,31 +192,7 @@ export default function Hero() {
             alt="Next.js"
             className="mt-4 mr-2 hidden w-96 brightness-[4] select-none xl:block"
           />
-          <span className="text-sm text-gray-500">We use industry standards like </span>
-          <img
-            src="/nextjs.webp"
-            draggable={false}
-            alt="Next.js"
-            width={28}
-            height={28}
-            className="h-7 w-7 select-none"
-          />
-          <img
-            src="/tailwind.webp"
-            alt="Tailwind CSS"
-            width={28}
-            height={28}
-            className="h-7 w-7 select-none"
-            draggable={false}
-          />
-          <img
-            src="/framer.webp"
-            alt="Framer Motion"
-            width={24}
-            height={24}
-            className="h-6 w-6 select-none"
-            draggable={false}
-          />
+          <span className="text-sm text-gray-500">Powered by cutting-edge AI technology </span>
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
