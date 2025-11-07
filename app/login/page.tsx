@@ -54,7 +54,7 @@ export default function LoginPage() {
             <div className="flex items-center justify-center space-x-2">
               <img
                 src="/flowV-logo.png"
-                alt="Flow V"
+                alt="MakerMode"
                 className="rounded-lg size-12 w-12"
               />
             </div>

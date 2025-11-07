@@ -4,7 +4,7 @@ const testimonials = [
   {
     name: "Sarah Mitchell",
     username: "CEO, TechStart Inc",
-    body: "Berto and Flow V automated our entire customer onboarding process. We went from 3 hours per client to just 10 minutes. Game-changing ROI.",
+    body: "Berto and MakerMode automated our entire customer onboarding process. We went from 3 hours per client to just 10 minutes. Game-changing ROI.",
     img: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&h=150&fit=crop&crop=face",
   },
   {
@@ -16,7 +16,7 @@ const testimonials = [
   {
     name: "Emily Chen",
     username: "Marketing Director",
-    body: "Flow V built us a content generation system that creates social media posts, blogs, and email campaigns. Our team is 5x more productive now.",
+    body: "MakerMode built us a content generation system that creates social media posts, blogs, and email campaigns. Our team is 5x more productive now.",
     img: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
   },
   {
@@ -28,13 +28,13 @@ const testimonials = [
   {
     name: "Amanda Foster",
     username: "Operations Manager",
-    body: "Flow V transformed our workflow. Data entry that took days now happens automatically. Berto's expertise in AI automation is unmatched.",
+    body: "MakerMode transformed our workflow. Data entry that took days now happens automatically. Berto's expertise in AI automation is unmatched.",
     img: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&h=150&fit=crop&crop=face",
   },
   {
     name: "James Park",
     username: "E-commerce Entrepreneur",
-    body: "The custom AI system Flow V built handles order processing, customer queries, and analytics. Revenue up 40% since implementation. Incredible results.",
+    body: "The custom AI system MakerMode built handles order processing, customer queries, and analytics. Revenue up 40% since implementation. Incredible results.",
     img: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
   },
   {
@@ -46,7 +46,7 @@ const testimonials = [
   {
     name: "Robert Kim",
     username: "CTO, FinanceHub",
-    body: "Flow V's AI automation integrates perfectly with our existing systems. Berto's technical knowledge and communication made the project smooth from start to finish.",
+    body: "MakerMode's AI automation integrates perfectly with our existing systems. Berto's technical knowledge and communication made the project smooth from start to finish.",
     img: "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=150&h=150&fit=crop&crop=face",
   },
   {
@@ -109,7 +109,7 @@ export function TestimonialsSection() {
           </h2>
 
           <p className="mt-5 relative z-10 text-center text-lg text-zinc-500">
-            Real results from businesses that transformed their operations with Flow V's AI automation solutions.
+            Real results from businesses that transformed their operations with MakerMode's AI automation solutions.
           </p>
         </div>
 

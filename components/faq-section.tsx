@@ -23,7 +23,7 @@ export function FAQSection() {
         "Implementation timelines vary based on project complexity. Simple automations like chatbots or email workflows can be deployed in 2-4 weeks, while comprehensive custom AI systems may take 2-3 months. We provide a detailed timeline during our initial consultation and work in agile sprints to deliver value incrementally.",
     },
     {
-      question: "Do I need technical expertise to use Flow V's AI solutions?",
+      question: "Do I need technical expertise to use MakerMode's AI solutions?",
       answer:
         "Not at all! We design our AI solutions to be user-friendly and intuitive. We provide comprehensive training, documentation, and ongoing support to ensure your team can effectively use and manage the automation systems. Our goal is to empower your team, not create dependency.",
     },
@@ -43,7 +43,7 @@ export function FAQSection() {
         "No, AI automation is designed to augment your team, not replace them. It handles repetitive, time-consuming tasks so your employees can focus on strategic, creative, and high-value work that requires human judgment and creativity. Most of our clients use AI to empower their teams to do more meaningful work.",
     },
     {
-      question: "Is my data secure with Flow V's AI solutions?",
+      question: "Is my data secure with MakerMode's AI solutions?",
       answer:
         "Absolutely. We prioritize data security and privacy in all our solutions. We use industry-standard encryption, secure cloud infrastructure, and comply with relevant data protection regulations (GDPR, CCPA, etc.). Your data remains your property, and we can implement on-premise solutions for sensitive industries.",
     },

@@ -74,7 +74,7 @@ export default function ServicesPage() {
         <Link href="/" className="z-50 flex items-center justify-center gap-2">
           <img
             src="/flowV-logo.png"
-            alt="Flow V"
+            alt="MakerMode"
             className="rounded-lg size-8 w-8"
           />
         </Link>

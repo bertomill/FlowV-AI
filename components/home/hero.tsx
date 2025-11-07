@@ -42,7 +42,7 @@ export default function Hero() {
               className="mb-8"
             >
               <h1 id="main-title" className="text-4xl font-bold tracking-tight text-foreground sm:text-6xl lg:text-7xl">
-                <span className="bg-gradient-to-r from-rose-400 via-rose-500 to-orange-500 bg-clip-text text-transparent">Flow V</span> <br />
+                <span className="bg-gradient-to-r from-rose-400 via-rose-500 to-orange-500 bg-clip-text text-transparent">MakerMode</span> <br />
                 Transform <strong>your business</strong> with <br />
                 <strong>intelligent</strong> <em className="italic">automation</em>
               </h1>

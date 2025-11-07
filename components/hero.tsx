@@ -141,13 +141,13 @@ export default function Hero() {
           >
             <span className="block mb-4">
               <span className="bg-gradient-to-r from-rose-400 via-rose-500 to-orange-500 bg-clip-text text-transparent">
-                Flow V
+                MakerMode
               </span>
             </span>
             Transform your business with
             <img
               src="/flowV-logo.png"
-              alt="Flow V Logo"
+              alt="MakerMode Logo"
               draggable={false}
               className="mx-4 mb-2 inline-block h-12 w-12 md:h-16 md:w-16 rounded-lg"
             />

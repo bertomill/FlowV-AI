@@ -5,9 +5,9 @@ import { GeistMono } from "geist/font/mono"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Flow V - AI Automation Agency",
+  title: "MakerMode - AI Automation Agency",
   description: "Transform your business with intelligent automation solutions powered by cutting-edge AI technology",
-  generator: "Flow V",
+  generator: "MakerMode",
 }
 
 export default function RootLayout({
